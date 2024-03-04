@@ -1,0 +1,36 @@
+.body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.scoreBoard {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  background-color: #88b1ac;
+  column-gap: 20px;
+}
+
+.match {
+  background-color: rgb(52, 110, 244);
+  padding: 20px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  /* grid-column: inherit; */
+  justify-content: space-evenly;
+  width: 90%;
+  border-radius: 30px;
+}
+
+.btnList button{
+  color: #fff;
+  background-color:  rgb(52, 110, 244);
+  margin: 5px;
+  padding: 10px 20px;
+  border: 1px solid grey;
+  border-radius: 20px  
+}
+
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Match Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="scoreBoard ">
+        <div class="match">
+            <div class="player">Score</div>
+            <div>
+                <div id="run"> 1</div>
+            </div>
+        </div>
+        <div class="match">
+            <label>Over</label>
+            <div id="over">0</div>
+        </div>
+        <div class="match">
+            <label>Wicket</label>
+            <div id="wicket">0</div>
+        </div>
+    </div>
+
+    <div class="btnList">
+        
+            <label>Update Run    :</label>
+            <button onclick="RunCount()">Run </button> <br><br><!-- score increase btn-->
+
+            <label>Update Over   :</label>
+            <button onclick="OverCount()">Over</button> <br><br><!-- Ball increase btn-->
+
+            <label>Update Wicket :</label>
+            <button onclick="WicketCount()">Wicket</button> <br><br><!-- Wicket increase btn-->
+
+            <label> Update Score : </label>
+            <button onclick="UpdateScore()">Update Score :</button>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
